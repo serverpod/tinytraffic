@@ -1,0 +1,9 @@
+class: PlayerSummary
+fields:
+  nickname: String
+  bestScore: int
+  ### Rank of the best score, or 0 before the first verified run.
+  rank: int
+  totalPlayers: int
+  topPercent: double
+  totalRuns: int

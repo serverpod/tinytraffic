@@ -1,0 +1,26 @@
+### A run the server handed out a seed for. Scores are only accepted for
+### runs started here, and only once.
+class: GameRun
+table: game_run
+serverOnly: true
+fields:
+  authUserId: UuidValue
+  seed: int
+  simVersion: int
+  startedAt: DateTime
+  finishedAt: DateTime?
+  status: RunStatus
+  ### Verified score, from replaying the run on the server.
+  score: int?
+  ticks: int?
+  rejectReason: String?
+  ### The app's simulation differed from the server's when the run started,
+  ### so its result can't be verified. Not cheating (likely an outdated app):
+  ### the run is quietly left out instead.
+  unverifiable: bool, default=false
+  ### The submitted steering inputs (InputLog encoding), kept so any run can
+  ### be replayed again later, e.g. to investigate a rejection.
+  inputLog: ByteData?
+indexes:
+  game_run_user_idx:
+    fields: authUserId, startedAt

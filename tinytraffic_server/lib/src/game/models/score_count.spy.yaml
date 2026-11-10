@@ -1,0 +1,14 @@
+### How many players have each best score, counting the players who count for
+### other players' placings (at least one run, not shadow-banned). Kept in
+### step with player_stats, so a placing adds up a few of these rows instead of
+### counting through every player.
+class: ScoreCount
+table: score_count
+serverOnly: true
+fields:
+  score: int
+  players: int
+indexes:
+  score_count_score_idx:
+    fields: score
+    unique: true

@@ -1,0 +1,6 @@
+class: LeaderboardEntry
+fields:
+  rank: int
+  nickname: String
+  score: int
+  isMe: bool

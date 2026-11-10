@@ -1,0 +1,13 @@
+### The server's verdict on a submitted run.
+class: RunResult
+fields:
+  accepted: bool
+  ### The verified score (coins).
+  score: int
+  bestScore: int
+  isNewBest: bool
+  ### This score's place among all players' best scores (1 = first).
+  rank: int
+  totalPlayers: int
+  ### Rank as a percentage of all players: 3.5 means "top 3.5%".
+  topPercent: double

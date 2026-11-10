@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tiny Traffic privacy policy</title>
+    <meta name="description" content="What Tiny Traffic stores, and what it doesn't.">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@400;700;800&display=swap">
+    <style>
+      :root {
+        --bg: #eef4fb; --sheet: #ffffff; --ink: #172341; --muted: #55617e;
+        --line: #d5dfec; --blue: #2f6fe4; --coin: #f2b51f;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0f1628; --sheet: #172038; --ink: #e8eefb; --muted: #9aa7c4;
+          --line: #2a3657; --blue: #6c9cff; --coin: #f5c447; color-scheme: dark;
+        }
+      }
+      body {
+        margin: 0; background: var(--bg); color: var(--ink);
+        font: 17px/1.6 "Nunito", "Segoe UI", system-ui, sans-serif;
+        padding: 40px max(16px, env(safe-area-inset-left)) 64px max(16px, env(safe-area-inset-right));
+      }
+      main { max-width: 680px; margin: 0 auto; }
+      header { display: flex; align-items: center; gap: 14px; margin-bottom: 28px; }
+      header img { width: 56px; height: 56px; border-radius: 14px; }
+      header a { color: inherit; text-decoration: none; font: 400 26px "Lilita One", "Trebuchet MS", sans-serif; }
+      h1 { font: 400 clamp(32px, 7vw, 44px)/1.1 "Lilita One", "Trebuchet MS", sans-serif; margin: 0 0 8px; }
+      h2 { font: 400 22px "Lilita One", "Trebuchet MS", sans-serif; margin: 32px 0 8px; }
+      .updated { color: var(--muted); margin: 0 0 24px; }
+      ul { padding-left: 22px; }
+      li + li { margin-top: 6px; }
+      a { color: var(--blue); }
+      .card { background: var(--sheet); border: 1px solid var(--line); border-radius: 16px; padding: 4px 24px 20px; }
+      footer { margin-top: 32px; color: var(--muted); font-size: 15px; display: flex; flex-wrap: wrap; gap: 16px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="/icons/Icon-192.png" alt="">
+        <a href="/">Tiny Traffic</a>
+      </header>
+      <h1>Privacy policy</h1>
+      <p class="updated">Last updated 22 October 2026</p>
+      <div class="card">
+        <p>Tiny Traffic is a game. It doesn't ask for your name, email address, location or any other personal details, and it shows no ads.</p>
+
+        <h2>What we store</h2>
+        <ul>
+          <li><strong>An anonymous player account.</strong> The first time you open the game, it creates an account with a random identifier so it can keep your scores. It isn't connected to your Apple ID or to who you are.</li>
+          <li><strong>Your runs.</strong> For each run we store the lane changes you made and the score. Our server replays every run to check the score is real, and uses everyone's best scores to show where you place.</li>
+        </ul>
+
+        <h2>What we don't do</h2>
+        <p>We don't sell or share your data, use it for advertising, or track you across other apps and websites. The game contains no analytics or advertising code from other companies.</p>
+
+        <h2>Technical data</h2>
+        <p>Like any online service, our server sees your IP address when the game connects. We use it only to stop people from creating large numbers of accounts, and don't store it for anything else.</p>
+
+        <h2>Where the data lives</h2>
+        <p>Scores and runs are stored on our game server, hosted on Serverpod Cloud.</p>
+
+        <h2>Deleting your data</h2>
+        <p>Email us and we'll delete your player account and runs.</p>
+
+        <h2>Contact</h2>
+        <p><a href="mailto:info@viktorious.com">info@viktorious.com</a></p>
+      </div>
+      <footer>
+        <a href="/support">Support</a>
+        <a href="/">Play Tiny Traffic</a>
+      </footer>
+    </main>
+  </body>
+</html>

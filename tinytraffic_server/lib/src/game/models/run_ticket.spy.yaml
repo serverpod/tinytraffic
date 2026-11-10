@@ -1,0 +1,6 @@
+### What the client needs to play a run the server will accept.
+class: RunTicket
+fields:
+  runId: int
+  seed: int
+  simVersion: int

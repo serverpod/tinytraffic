@@ -1,0 +1,37 @@
+{
+  "fill" : {
+    "automatic-gradient" : "extended-srgb:0.00000,0.53333,1.00000,1.00000"
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "glass" : false,
+          "image-name" : "magnific__redraw-this-icon-with-a-plain-blue-gradient-backgr__58850.png",
+          "name" : "magnific__redraw-this-icon-with-a-plain-blue-gradient-backgr__58850",
+          "position" : {
+            "scale" : 0.58,
+            "translation-in-points" : [
+              33.419062499999995,
+              -20.1875
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}

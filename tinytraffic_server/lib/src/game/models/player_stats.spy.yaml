@@ -1,0 +1,24 @@
+### Best score and totals per player.
+class: PlayerStats
+table: player_stats
+serverOnly: true
+fields:
+  authUserId: UuidValue
+  nickname: String
+  bestScore: int
+  bestRunId: int?
+  bestAt: DateTime?
+  totalRuns: int
+  totalCoins: int
+  ### Shadow-banned players still see their own scores, but nobody else's
+  ### placings or leaderboard count them. Set when a run fails verification
+  ### in a way only a cheat can cause; clear it to lift the ban.
+  shadowBanned: bool, default=false
+  banReason: String?
+  bannedAt: DateTime?
+indexes:
+  player_stats_user_idx:
+    fields: authUserId
+    unique: true
+  player_stats_best_idx:
+    fields: bestScore

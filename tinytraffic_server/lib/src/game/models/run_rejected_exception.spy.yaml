@@ -1,0 +1,4 @@
+### Thrown when a submitted run fails verification.
+exception: RunRejectedException
+fields:
+  reason: String

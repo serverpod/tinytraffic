@@ -1,0 +1,9 @@
+anonymousIdp:
+  - login:
+jwtRefresh:
+  - refreshAccessToken:
+game:
+  - startRun:
+  - submitRun:
+  - getSummary:
+  - getLeaderboard:

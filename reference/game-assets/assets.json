@@ -1,0 +1,374 @@
+{
+  "units": "metres",
+  "up": "+Y",
+  "forward": "+Z",
+  "tileSize": 12,
+  "roadSurfaceY": 0,
+  "curbHeight": 0.15,
+  "roads": {
+    "road_straight": "Runs along Z (connects north -Z and south +Z).",
+    "road_crosswalk": "Straight road along Z with a pedestrian crossing.",
+    "road_corner": "Connects east (+X) and south (+Z). Rotate about +Y in 90\u00b0 steps for other turns."
+  },
+  "assets": [
+    {
+      "name": "road_straight",
+      "file": "road_straight.glb",
+      "category": "road",
+      "size": {
+        "width": 12,
+        "height": 0,
+        "depth": 12
+      },
+      "source": "generated"
+    },
+    {
+      "name": "road_corner",
+      "file": "road_corner.glb",
+      "category": "road",
+      "size": {
+        "width": 12,
+        "height": 0,
+        "depth": 12
+      },
+      "source": "generated"
+    },
+    {
+      "name": "road_crosswalk",
+      "file": "road_crosswalk.glb",
+      "category": "road",
+      "size": {
+        "width": 12,
+        "height": 0,
+        "depth": 12
+      },
+      "source": "generated"
+    },
+    {
+      "name": "building_large_a",
+      "file": "building_large_a.glb",
+      "category": "building",
+      "size": {
+        "width": 16.32,
+        "height": 13.44,
+        "depth": 9.92
+      },
+      "triangles": 2364,
+      "source": "City Kit-glb/Large Building-ppwtREejXg.glb",
+      "footprint": {
+        "width": 2,
+        "depth": 1
+      }
+    },
+    {
+      "name": "building_large_b",
+      "file": "building_large_b.glb",
+      "category": "building",
+      "size": {
+        "width": 6.72,
+        "height": 13.44,
+        "depth": 6.72
+      },
+      "triangles": 840,
+      "source": "City Kit-glb/Large Building-JgGLJH2iXj.glb",
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "name": "building_large_c",
+      "file": "building_large_c.glb",
+      "category": "building",
+      "size": {
+        "width": 7.76,
+        "height": 13.44,
+        "depth": 6.72
+      },
+      "triangles": 950,
+      "source": "City Kit-glb/Large Building.glb",
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "name": "building_large_d",
+      "file": "building_large_d.glb",
+      "category": "building",
+      "size": {
+        "width": 9.92,
+        "height": 13.44,
+        "depth": 9.92
+      },
+      "triangles": 1400,
+      "source": "City Kit-glb/Large Building-1bt4yYKmuK.glb",
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "name": "building_large_e",
+      "file": "building_large_e.glb",
+      "category": "building",
+      "size": {
+        "width": 9.92,
+        "height": 16.64,
+        "depth": 10.72
+      },
+      "triangles": 1608,
+      "source": "City Kit-glb/Large Building-3IhrYZp6tP.glb",
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "name": "building_large_f",
+      "file": "building_large_f.glb",
+      "category": "building",
+      "size": {
+        "width": 16.32,
+        "height": 12,
+        "depth": 6.76
+      },
+      "triangles": 1388,
+      "source": "City Kit-glb/Large Building-sxXonOmtct.glb",
+      "footprint": {
+        "width": 2,
+        "depth": 1
+      }
+    },
+    {
+      "name": "building_large_g",
+      "file": "building_large_g.glb",
+      "category": "building",
+      "size": {
+        "width": 18.56,
+        "height": 19.84,
+        "depth": 14.56
+      },
+      "triangles": 2138,
+      "source": "City Kit-glb/Large Building-h7Jaq7bqMq.glb",
+      "footprint": {
+        "width": 2,
+        "depth": 2
+      }
+    },
+    {
+      "name": "building_small_a",
+      "file": "building_small_a.glb",
+      "category": "building",
+      "size": {
+        "width": 6.72,
+        "height": 10.24,
+        "depth": 7.52
+      },
+      "triangles": 548,
+      "source": "City Kit-glb/Small Building-t9j9Lof5ul.glb",
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "name": "building_small_b",
+      "file": "building_small_b.glb",
+      "category": "building",
+      "size": {
+        "width": 6.72,
+        "height": 7.04,
+        "depth": 7.52
+      },
+      "triangles": 410,
+      "source": "City Kit-glb/Small Building-QjL4Fo9dU9.glb",
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "name": "building_small_c",
+      "file": "building_small_c.glb",
+      "category": "building",
+      "size": {
+        "width": 6.72,
+        "height": 10.24,
+        "depth": 7.52
+      },
+      "triangles": 550,
+      "source": "City Kit-glb/Small Building.glb",
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "name": "building_small_d",
+      "file": "building_small_d.glb",
+      "category": "building",
+      "size": {
+        "width": 6.72,
+        "height": 10.24,
+        "depth": 7.743
+      },
+      "triangles": 660,
+      "source": "City Kit-glb/Small Building-Rq572hdKEz.glb",
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "name": "building_small_e",
+      "file": "building_small_e.glb",
+      "category": "building",
+      "size": {
+        "width": 13.12,
+        "height": 7.04,
+        "depth": 7.743
+      },
+      "triangles": 694,
+      "source": "City Kit-glb/Small Building-gyjF60t7CG.glb",
+      "footprint": {
+        "width": 2,
+        "depth": 1
+      }
+    },
+    {
+      "name": "building_small_f",
+      "file": "building_small_f.glb",
+      "category": "building",
+      "size": {
+        "width": 6.72,
+        "height": 10.24,
+        "depth": 6.72
+      },
+      "triangles": 536,
+      "source": "City Kit-glb/Small Building-yLvnMqC9ZG.glb",
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "name": "car_sedan",
+      "file": "car_sedan.glb",
+      "category": "vehicle",
+      "size": {
+        "width": 2.228,
+        "height": 1.558,
+        "depth": 4.5
+      },
+      "triangles": 3124,
+      "source": "City Pack.undefined-glb/Car-unqqkULtRU.glb"
+    },
+    {
+      "name": "car_hatchback",
+      "file": "car_hatchback.glb",
+      "category": "vehicle",
+      "size": {
+        "width": 2.094,
+        "height": 1.487,
+        "depth": 4.1
+      },
+      "triangles": 2050,
+      "source": "City Pack.undefined-glb/Car.glb"
+    },
+    {
+      "name": "car_suv",
+      "file": "car_suv.glb",
+      "category": "vehicle",
+      "size": {
+        "width": 2.407,
+        "height": 1.742,
+        "depth": 4.8
+      },
+      "triangles": 3294,
+      "source": "City Pack.undefined-glb/SUV.glb"
+    },
+    {
+      "name": "car_pickup",
+      "file": "car_pickup.glb",
+      "category": "vehicle",
+      "size": {
+        "width": 2.054,
+        "height": 1.926,
+        "depth": 5.3
+      },
+      "triangles": 2899,
+      "source": "City Pack.undefined-glb/Mitsubishi L200.glb"
+    },
+    {
+      "name": "tree_a",
+      "file": "tree_a.glb",
+      "category": "tree",
+      "size": {
+        "width": 4.828,
+        "height": 7.773,
+        "depth": 3.49
+      },
+      "triangles": 2712,
+      "source": "Ultimate Stylized Nature Pack-glb/Trees.glb#NormalTree_1"
+    },
+    {
+      "name": "tree_b",
+      "file": "tree_b.glb",
+      "category": "tree",
+      "size": {
+        "width": 5.388,
+        "height": 7.471,
+        "depth": 3.428
+      },
+      "triangles": 2446,
+      "source": "Ultimate Stylized Nature Pack-glb/Trees.glb#NormalTree_2"
+    },
+    {
+      "name": "tree_c",
+      "file": "tree_c.glb",
+      "category": "tree",
+      "size": {
+        "width": 5.9,
+        "height": 6.115,
+        "depth": 3.628
+      },
+      "triangles": 2133,
+      "source": "Ultimate Stylized Nature Pack-glb/Trees.glb#NormalTree_3"
+    },
+    {
+      "name": "pickup_coin",
+      "file": "pickup_coin.glb",
+      "category": "pickup",
+      "size": {
+        "width": 1.8,
+        "height": 1.802,
+        "depth": 0.443
+      },
+      "triangles": 396,
+      "source": "Extras-glb/Coin.glb"
+    },
+    {
+      "name": "ground_sidewalk",
+      "file": "ground_sidewalk.glb",
+      "category": "ground",
+      "size": {
+        "width": 12,
+        "height": 0.15,
+        "depth": 12
+      },
+      "source": "generated"
+    },
+    {
+      "name": "ground_grass",
+      "file": "ground_grass.glb",
+      "category": "ground",
+      "size": {
+        "width": 12,
+        "height": 0,
+        "depth": 12
+      },
+      "source": "generated"
+    }
+  ]
+}
